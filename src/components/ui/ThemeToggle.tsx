@@ -130,7 +130,7 @@ const ThemeToggle = ({ variant = "icon", className }: ThemeToggleProps) => {
         aria-label={activateLabel}
         aria-pressed={theme === "dark"}
         className={cls(
-          "flex items-center justify-between rounded-md border border-slate-200 px-3 py-2 text-left text-sm transition hover:border-amber-200 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:border-slate-700 dark:hover:border-amber-400 dark:hover:text-amber-300",
+          "flex items-center justify-between rounded-md border border-accent-3/60 bg-primary/80 px-3 py-2 text-left text-sm text-contrast/80 transition hover:border-brand/50 hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand",
           className
         )}
       >
@@ -151,7 +151,7 @@ const ThemeToggle = ({ variant = "icon", className }: ThemeToggleProps) => {
       aria-label={activateLabel}
       aria-pressed={theme === "dark"}
       className={cls(
-        "inline-flex h-10 w-10 items-center justify-center rounded-full border border-transparent bg-slate-100 text-slate-600 transition hover:border-amber-200 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:bg-slate-800 dark:text-slate-300 dark:hover:border-amber-400 dark:hover:text-amber-300",
+        "inline-flex h-10 w-10 items-center justify-center rounded-full border border-accent-3/50 bg-accent-2/80 text-contrast/80 shadow-sm transition hover:border-brand/50 hover:text-brand focus:outline-none focus:ring-2 focus:ring-brand",
         className
       )}
     >
